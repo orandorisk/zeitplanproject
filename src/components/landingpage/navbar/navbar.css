@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+    background-color: white;
+    padding: 30px 40px;
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.05);
+}
+
+.navbar .d-flex p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar_navigation .d-flex {
+    display: flex;
+    gap: 48px;
+}
+
+.navbar .navbar_navigation li:first-child a {
+    color: var(--orange-color);
+    font-weight: 600;
+    font-family: var(--font-family-third);
+}
+
+ul > li:nth-child(n+2):nth-child(-n+4) {
+    font-family: var(--font-family-third);
+  }
+
+.navbar .navbar_navigation li:last-child a {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--orange-color);
+    color: var(--third-color);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--font-family-third);
+}
