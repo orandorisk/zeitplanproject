@@ -5,13 +5,13 @@ import "./navbar.css";
 
 const Navbar = () => {
     return (
-        <navbar class="navbar">
-            <a href="#home" class="d-flex">
-                <img src={Logo} alt="Logo" class="icon"/>
+        <navbar className="navbar">
+            <a href="#home" className="d-flex">
+                <img src={Logo} alt="Logo" className="icon"/>
                 <p>ZEITPLAN</p>
             </a>
-            <div class="navbar_navigation">
-                <ul class="d-flex">
+            <div className="navbar_navigation">
+                <ul className="d-flex">
                     <li>
                         <a href="#home">Home</a>
                     </li>
@@ -28,7 +28,7 @@ const Navbar = () => {
                         <a href="#home">Testimoni</a>
                     </li>
                     <li>
-                        <a href="#download" alt="Download" class="btn btn-primary">Download</a>
+                        <a href="#download" alt="Download" className="btn btn-primary">Download</a>
                     </li>
                 </ul>
             </div>

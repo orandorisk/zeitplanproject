@@ -1,0 +1,89 @@
+/* 
+    Profile style column
+*/
+
+.main_content{
+    display: flex;
+    column-gap: 5rem;
+}
+
+.left_content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    row-gap: 2rem;
+}
+
+.right_content {
+    flex: 1.7;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+/* 
+    Profile style content
+*/
+
+.left_content h2{
+    font-size: 34px;
+    font-weight: 100;
+}
+
+.left_content p{
+    font-size: 16px;
+    color: var(--sixty-color);
+    font-family: var(--font-family-third);
+    line-height: 28px;
+}
+
+.left_content .count {
+    display: flex;
+    flex: 1;
+    column-gap: 3rem;
+    margin-top: 2rem;
+}
+
+.count p {
+    font-size: 12px;
+}
+
+.count h4 {
+    font-size: 20px;
+}
+
+/* 
+    Card content style
+*/
+
+.card-item {
+    background-color: rgba(254, 94, 68, 0.10);
+    padding: 40px;
+    border-radius: 6px;
+    row-gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item_title {
+    display: flex;
+    align-items: center;
+}
+
+.card-item_title img {
+    background-color: rgba(254, 94, 68, 0.20);
+    padding: 13px;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.card-item_title h4 {
+    font-size: 16px;
+}
+
+.card-item_description p{
+    font-size: 15px;
+    line-height: 28px;
+    color: var(--eighty-color);
+}
