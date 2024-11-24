@@ -1,0 +1,66 @@
+/* 
+    Feature Styling grid/flex
+*/
+
+.main_content-feature {
+    display: flex;
+    column-gap: 31px;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.left_content-feature {
+    display: flex;
+    flex: 1;
+    background: rgb(255,115,92);
+    background: linear-gradient(0deg, rgba(255,115,92,1) 5%, rgba(255,191,181,1) 50%, rgba(255,191,181,1) 100%);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+    Right style
+*/
+.right_content-feature {
+    display: flex;
+    flex: 1.2;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right_content-feature h2 {
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.right_content-feature p {
+    font-size: 16px;
+    color: var(--sixty-color);
+    font-family: var(--font-family-third);
+    line-height: 28px;
+}
+
+/* 
+    Card Item Syle
+*/
+
+.card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.feature-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.card_item-feature h4 {
+    font-weight: 600;
+}
+
+.card_item-feature p {
+    font-size: 14px;
+    margin-top: 6px;
+}

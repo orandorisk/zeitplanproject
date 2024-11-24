@@ -2,9 +2,11 @@
     Profile style column
 */
 
-.main_content{
+.main_content-profile {
     display: flex;
     column-gap: 5rem;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
 }
 
 .left_content {

@@ -48,7 +48,7 @@ const ProfilCard = ({icon, title, description}) => {
 
 const Profil = () => {
     return (
-        <div className="main_content wrapper">
+        <div className="main_content-profile wrapper">
             <div className="left_content">
                 <h2>
                     Kenapa Kamu Sangat Harus Pakai Aplikasi Yang Keren ini?
