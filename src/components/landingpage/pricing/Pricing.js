@@ -5,7 +5,7 @@ import PriceIcon from '../../../assets/icon/icon_pricing.svg';
 const data = [
     {
         title: 'RINDURATU',
-        price: 'FREE',
+        price: 'Free',
         description: 'Akses ke semua fitur gratis tapi data lo dijual ke agen khusus US.',
         list: [
             'Jadwal Tak Terbatas',
@@ -56,15 +56,16 @@ const PricingCard = ({title, price, description, list, status}) => {
             <h3>{title}</h3>
             <h2>{price}</h2>
             <span>{description}</span>
-            <ul>
+            <ul className='list_wrapper'>
                 {
                     list.map((item, index) => (
-                        <li key={index}>
-                           <img src={PriceIcon} alt='icon'/> {item}
+                        <li key={index} className='list_wrapper-item'>
+                           <img src={PriceIcon} alt='icon'/> <p>{item}</p>
                         </li>
                     ))
                 }
             </ul>
+            <a href="#download" alt="Download" className="btn btn-primary">{status}</a>
         </div>
     )
 }
@@ -72,8 +73,10 @@ const PricingCard = ({title, price, description, list, status}) => {
 const Pricing = () => {
     return (
         <div className='main_content-pricing wrapper'>
-            <h2>Main catur sambil bersepeda, beda harga beda fitur</h2>
-            <p>Aplikasi ini gratis sebenernya, brodie. Tapi kalo mau bayar gapapa juga sih, untuk gantinya kami kasih fitur yang spesial buat kamu!</p>
+            <div className='pricing_top-wrapper'>
+                <h2>Main catur sambil bersepeda, beda harga beda fitur</h2>
+                <p>Aplikasi ini gratis sebenernya, brodie. Tapi kalo mau bayar gapapa juga sih, untuk gantinya kami kasih fitur yang spesial buat kamu!</p>
+            </div>
             <div className='pricing_card-wrapper'>
                 {
                     data.map((item) =>

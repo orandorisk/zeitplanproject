@@ -5,3 +5,98 @@
 .main_content-pricing {
     background-color: rgba(254, 94, 68, 0.10);
 }
+
+.pricing_top-wrapper {
+    padding: 0px 17rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-bottom: 100px;
+}
+
+.main_content-pricing h2:first-child, .main_content-pricing p {
+    text-align: center;
+}
+
+.pricing_top-wrapper h2 {
+    font-size: 34px;
+    font-weight: 100;
+}
+
+.pricing_top-wrapper p {
+    font-size: 16px;
+    color: var(--sixty-color);
+    font-family: var(--font-family-third);
+    line-height: 28px;
+}
+
+/* 
+    Card Pricing Style
+*/
+
+.pricing_card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.pricing_card {
+    background-color: var(--seventy-color);
+    border-radius: 5px 0px 0px 5px;
+    padding: 47px 50px;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.pricing_card .list_wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+}
+
+.list_wrapper-item {
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+.list_wrapper-item p {
+    text-shadow:  0px 4px 8px rgba(12, 14, 43, 0.2);
+}
+/* 
+    Card Content style
+*/
+
+.pricing_card h3 {
+    font-family: var(--ibm-plex-mono);
+    font-weight: 600;
+    color: var(--orange-color);
+    font-size: 14px;
+    letter-spacing: 1.6px;
+}
+
+.pricing_card h2 {
+    font-weight: 500;
+}
+
+.pricing_card span {
+    font-size: 16px;
+    color: var(--sixty-color);
+    font-family: var(--font-family-third);
+    line-height: 28px;
+}
+
+.pricing_card .btn.btn-primary {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--orange-color);
+    color: var(--third-color);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--font-family-third);
+    text-align: center;
+    box-shadow: 0px 20px 30px rgba(255, 86, 58, 0.15);;
+}
