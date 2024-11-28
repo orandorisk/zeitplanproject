@@ -1,5 +1,5 @@
 import React from 'react';
-import { Main, Profil, Feature, Pricing } from './components/landingpage';
+import { Main, Profil, Feature, Pricing, Testimoni } from './components/landingpage';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
         <Profil />
         <Feature />
         <Pricing />
+        <Testimoni />
       </React.Fragment>
   );
 }

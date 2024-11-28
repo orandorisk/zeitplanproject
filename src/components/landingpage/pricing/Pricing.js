@@ -84,6 +84,11 @@ const Pricing = () => {
                     )
                 }
             </div>
+            <div className='pricing_bottom-wrapper'>
+                <p>
+                    <span>Harap Diingat:</span> Harga di atas belum termasuk KKM, dan harga sewaktu-waktu bisa derbubah secara mendadak seperti pengunguman PPKM darurat.
+                </p>
+            </div>
         </div>
     )
 }
