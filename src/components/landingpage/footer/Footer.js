@@ -86,7 +86,7 @@ const Footer = () => {
             <div className='main_content-footer-top'>
                 <h2>Download Aplikasi Keren Ini Sekarang!</h2>
                 <p>Please download lah aplikasi ini, udah susah-susah buat, mana pas bikin sampe begadang, terus juga ditambah weekend. Jadi, please download lah ya.</p>
-                <div>
+                <div className='download-wrapper'>
                     <a href='www.appstore.com'><img src={AppStore} alt='appstore'/></a>
                     <a href='www.googleplay.com'><img src={GooglePlay} alt='googleplay'/></a>
                 </div>

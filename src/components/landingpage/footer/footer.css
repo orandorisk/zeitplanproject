@@ -27,3 +27,10 @@
     line-height: 28px;
     padding: 0px 130px;
 }
+
+.main_content-footer-top .download-wrapper {
+    margin-top: 40px;
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+}

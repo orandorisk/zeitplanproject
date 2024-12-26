@@ -36,5 +36,5 @@ ul > li:nth-child(n+2):nth-child(-n+4) {
     color: var(--third-color);
     font-weight: 600;
     font-size: 16px;
-    font-family: var(--font-family-third);
+    font-family: var(--eighty-color);
 }
