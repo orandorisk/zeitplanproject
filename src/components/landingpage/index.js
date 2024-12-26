@@ -4,3 +4,4 @@ export { default as Profil } from './profil/Profil.js';
 export { default as Feature } from './feature/Feature.js';
 export { default as Pricing } from './pricing/Pricing.js';
 export { default as Testimoni } from './testimoni/Testimoni.js';
+export { default as Footer } from './footer/Footer.js';
