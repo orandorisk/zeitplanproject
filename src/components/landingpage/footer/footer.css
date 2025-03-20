@@ -34,3 +34,26 @@
     column-gap: 15px;
     justify-content: center;
 }
+
+/* Footer Bottom Style */
+
+.main_content-footer-bottom {
+    display: flex;
+    column-gap: 30px;
+    padding: 0px 100px;
+}
+
+.main_content-footer-bottom :first-child(div) {
+    display: flex;
+    flex:1.5;
+}
+
+.Footer_link-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content-footer-bottom p {
+    font-size: 16px;
+}
+
